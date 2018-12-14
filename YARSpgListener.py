@@ -80,6 +80,15 @@ class YARSpgListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by YARSpgParser#ido.
+    def enterIdo(self, ctx:YARSpgParser.IdoContext):
+        pass
+
+    # Exit a parse tree produced by YARSpgParser#ido.
+    def exitIdo(self, ctx:YARSpgParser.IdoContext):
+        pass
+
+
     # Enter a parse tree produced by YARSpgParser#node_label.
     def enterNode_label(self, ctx:YARSpgParser.Node_labelContext):
         pass
